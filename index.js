@@ -9,6 +9,6 @@ function nameToAttributes(drivers){
 
 function attributesToPhrase(drivers){
   return drivers.map(function(item){
-    return item.name +' is from ' + item.hometown 
+    return item.name +' is from ' + item.hometown
   })
 }
